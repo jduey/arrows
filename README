@@ -1,17 +1,22 @@
 # arrows
 
-FIXME: write description
+A library for building arrows in Clojure
 
 ## Usage
 
-FIXME: write
+See http://www.cse.chalmers.se/~rjmh/Papers/arrows.pdf for an explanation of arrows.
 
 ## Installation
 
-FIXME: write
+Add:
+
+[net.intensivesystems/arrows "1.0.0"]
+
+to project.clj
 
 ## License
 
-Copyright (C) 2010 FIXME
+Copyright (C) 2010 Jim Duey
 
-Distributed under the Eclipse Public License, the same as Clojure.n
+Distributed under the BSD License.
+
