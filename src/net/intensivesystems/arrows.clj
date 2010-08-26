@@ -12,7 +12,7 @@
          ~'a-all ::undefined
          ~@operations]
      {:a-arr ~'a-arr
-      :a-seq ~'a-seq 
+      :a-comp ~'a-comp 
       :a-nth ~'a-nth
 
       :a-all ~'a-all
@@ -38,7 +38,7 @@
 (defmacro with-arrow
    [arrow & exprs]
    `(let [~'a-arr (:a-arr ~arrow)
-		  ~'a-seq (:a-seq ~arrow)
+		  ~'a-comp (:a-comp ~arrow)
 		  ~'a-nth (:a-nth ~arrow)
 
 		  ~'a-select (:a-select ~arrow)
