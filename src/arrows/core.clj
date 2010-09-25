@@ -1,4 +1,4 @@
-(ns arrows
+(ns arrows.core
   (:use [clojure.contrib.macro-utils :only (with-symbol-macros)]))
 
 (defmacro arrow
