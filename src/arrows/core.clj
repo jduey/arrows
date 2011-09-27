@@ -1,5 +1,5 @@
 (ns arrows.core
-  (:use [clojure.contrib.macro-utils :only (with-symbol-macros)]))
+  (:use [clojure.tools.macro :only (with-symbol-macros)]))
 
 (defmacro arrow
   [operations]
